@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8"/>
+
+		<title>Accueil - Grandes associations caritatives françaises</title>
+
+		<link rel="icon" type="image/png" sizes="16x16" href="images/icone.png">
+
+		<link rel="stylesheet" href="styles/style.css"/>
+
+		<style>
+			li {
+				color: #000000;
+				margin: 0 0 50px;
+				font-size: 1.3em
+			}
+
+			a {
+				text-decoration: none
+			}
+
+			button {
+				border: none;
+				width: 50px;
+				height: 30px
+			}
+		</style>
+
+		<script src="scripts/script.js"></script>
+	</head>
+
+	<body style="font-size: 1.4em; text-align: center">
+		<h1 style="color: #772c2c">Découverte de 5 grandes associations caritatives en France</h1>
+
+		<h4 style="margin: 50px 0 50px; color: #7f00ff; font-style: italic;">Cliquez sur le nom de l'une des associations suivantes pour obtenir plus d'informations sur celle-ci* :</h4>
+
+		<ul style="list-style-position: inside">
+			<li><a href='action-contre-la-faim.html' title="Informations sur Action contre la faim" class="action-contre-la-faim">Action contre la faim</a></li>
+			<li><a href='croix-rouge.html' title="Informations sur la Croix-Rouge française" class="croix-rouge">La Croix-Rouge française</a></li>
+			<li><a href='fondation-abbe-pierre.html' title="Informations sur la Fondation Abbé Pierre" class="fondation-abbe-pierre">La Fondation Abbé Pierre</a></li>
+			<li><a href='restos-du-coeur.html' title="Informations sur les Restos du Coeur" class="restos-du-coeur">Les Restos du Coeur</a></li>
+			<li><a href='secours-populaire.html' title="Informations sur le Secours populaire français" class="secours-populaire">Le Secours populaire français</a></li>
+		    <li style="list-style-type: none; margin: 80px"><a style="color: #7b9941" href='formulaire-ajout-association.html' title="Formulaire pour proposer une association à ajouter">+ Proposer une association à ajouter</a></li>
+		</ul>
+
+		<h6 style="color:#974ead; margin: 0 0 25px 2%; font-size: 70%">Cliquez sur l'un des boutons suivants pour modifier la couleur du fond de la page :</h6>
+		<div style="margin: 0 0 0 1%">
+			<button style="background-color: #ace2de" onclick = "changer_couleur('#ace2de')"></button>
+			<button style="background-color: #e0baba" onclick = "changer_couleur('#e0baba')"></button>
+			<button style="background-color: #a8dbaa" onclick = "changer_couleur('#a8dbaa')"></button>
+			<button style="background-color: #d8c4a9" onclick = "changer_couleur('#d8c4a9')"></button>
+		</div>
+
+		<h6 style="color: #2e7ed3; font-style: italic; margin: 1% 2% 0 65%; position: absolute">*Les informations proviennent des sites officiels des associations respectives</h6>
+	</body>
+</html>

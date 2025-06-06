@@ -1,0 +1,145 @@
+body {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-image: url(../images/image-association.png);
+
+    font-family: 'Trebuchet MS', sans-serif
+}
+
+li {
+    color: #1281EA;
+    margin: 0 30% 5px -10px;
+    font-weight: bold;
+    font-size: 1.1em
+}
+
+img {
+    top: 2%;
+    position: absolute
+}
+
+.titre  {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 30px
+}
+
+h2 {
+    color: #E71A1A;
+    margin: 30px 30% 30px 10px
+}
+
+p {
+    color: #1281EA;
+    margin: 0 30% 0 15px;
+    font-size: 1.2em
+}
+
+table {
+    text-align: center;
+    margin: 0 30% 0 15px;
+    border-collapse: collapse
+}
+
+td {
+    color: #1281EA;
+    border: 2px solid #1281ea;
+    padding: 10px;
+    font-size: 1.1em
+}
+
+.conteneur-titre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.restos-du-coeur {
+    background: linear-gradient(to right,
+        #cb006b 0%,
+        #a10858 10%,
+        #771046 20%,
+        #4d1733 30%,
+        #231f20 40%,
+        #131212 50%,
+        #381b29 60%,
+        #62133c 70%,
+        #a10858 80%,
+        #cb006b 100%
+    );
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block;
+}
+
+.secours-populaire {
+    background: linear-gradient(to right,
+        #06008d 0%,
+        #280380 10%,
+        #52076f 20%,
+        #6b0a66 30%,
+        #840c5c 40%,
+        #950e55 50%,
+        #ae104b 60%,
+        #c71341 70%,
+        #e01538 85%,
+        #f11731 100%
+    );
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block;
+}
+
+.action-contre-la-faim {
+    background: linear-gradient(to right,
+        #4cbd35 0%,
+        #45a958 10%,
+        #3f9974 20%,
+        #3a8d88 30%,
+        #36819d 40%,
+        #3379ab 50%,
+        #3175b2 60%,
+        #3071b9 70%,
+        #2e6dc0 80%,
+        #2e6dc0 100%
+    );
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block;
+}
+
+.fondation-abbe-pierre {
+    background: linear-gradient(to right,
+        #000000 0%,
+        #2a0e0a 10%,
+        #551c14 20%,
+        #7f291f 30%,
+        #a93729 40%,
+        #e94c38 50%,
+        #bf3e2e 60%,
+        #7f291f 70%,
+        #2a0e0a 80%,
+        #000000 100%
+    );
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block;
+}
+
+.croix-rouge {
+    background: linear-gradient(to right,
+        #e31e2d 0%,
+        #e14753 10%,
+        #df6871 20%,
+        #de7880 30%,
+        #df6871 40%,
+        #e14753 50%,
+        #e22e3c 60%,
+        #e32635 70%,
+        #e31e2d 80%,
+        #e31e2d 100%
+    );
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    display: inline-block;
+}
