@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8"/>
+
+        <title>Proposer une association à découvrir - Grandes associations caritatives françaises</title>
+
+        <link rel="icon" type="image/png" sizes="16x16" href="images/icone.png">
+
+        <link rel="stylesheet" href="styles/style.css"/>
+
+        <style>
+            textarea {
+                margin: 0 0 0 15px;
+                width: 65%;
+                height: 125px;
+                font-size: 1.3em;
+                font-family: sans-serif
+            }
+
+            .nombre {
+                width: 50px;
+                height: 25px;
+                font-family: sans-serif;
+                font-size: 1.1em
+            }
+
+            .text {
+                margin: 0 0 0 15px;
+                width: 500px;
+                height: 25px;
+                font-size: 1.1em
+            }
+        </style>
+
+        <script src="scripts/script.js"></script>
+    </head>
+
+    <body onkeyup="pression_touche(event)">
+        <a href="accueil.html"><img style="left: 1%" src="images/image-fleche-retour-arriere.png" alt="accueil.html" title="Retourner à la page d'accueil"></a>
+
+        <br>
+        <h1 style="color: #e5823b; font-size: 2em" class="titre">Formulaire pour proposer une association carritative française à ajouter</h1>
+        <br>
+
+        <form action="reponse-formulaire.php">
+            <h1 style="color: #E71A1A; margin: 30px 30% 25px 10px; font-size: 1.8em"><label for="nom_association">Nom de l'association</label></h1>
+            <input id="nom_association" name="nom_association" class="text" style="width: 300px" required>
+
+            <h2><label for="resume_fondation">Quelques mots sur la fondation de l'association :</label></h2>
+            <textarea id="resume_fondation" name="resume_fondation" required></textarea>
+
+            <h2><label for="objectifs_association">Les objectifs de cette association :</label></h2>
+            <textarea id="objectifs_association" name="objectifs_association" required></textarea>
+
+            <h2><label for="chiffres_cles">Quelques chiffres sur l’association (les lister):</label></h2>
+            <textarea id="chiffres_cles" name="chiffres_cles" required></textarea>
+
+            <h2><label>Part des gains de l'association :</label></h2>
+            <table>
+                <tr>
+                    <th></th>
+                    <td>Part des gains (en %)</td>
+                </tr>
+                <tr>
+                    <td><label for="part_gains_missions_sociales">Missions sociales</label></td>
+                    <td><input class="nombre" type="number" min="0" max="100" id="part_gains_missions_sociales" name="part_gains_missions_sociales" required></td>
+                </tr>
+                <tr>
+                    <td><label for="part_gains_frais_recherche_fonds">Frais de recherche de fonds</label></td>
+                    <td><input class="nombre" type="number" min="0" max="100" id="part_gains_frais_recherche_fonds" name="part_gains_frais_recherche_fonds" required></td>
+                </tr>
+                <tr>
+                    <td><label for="part_gains_frais_fonctionnement">Frais de fonctionnement</label></td>
+                    <td><input class="nombre" type="number" min="0" max="100" id="part_gains_frais_fonctionnement" name="part_gains_frais_fonctionnement" required></td>
+                </tr>
+            </table>
+
+            <h2><label for="lien_site_association">Le lien du site officiel de l'association :</label></h2>
+            <input type="url" id="lien_site_association" name="lien_site_association" class="text" required>
+
+            <h2><label for="lien_logo_association">Un lien du logo (de même hauteur/largeur de préférence) de l'association (optionnel) :</label></h2>
+            <input type="url" id="lien_logo_association" name="lien_logo_association" class="text">
+
+            <br>
+
+            <input type="reset" style="margin: 50px 0 30px 10px; width: 215px; height: 32px; font-size: 1.1em" value="Réinitialiser le formulaire" onclick="return reinitialisation_formulaire()">
+
+            <br>
+
+            <input type="submit" style="margin: 10px 0 30px 10px; width: 325px; height: 40px; font-size: 1.2em" value="Envoyer la propostion d'association" onclick="return confirmation_envoi()">
+        </form>
+    </body>
+</html>
