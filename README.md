@@ -18,7 +18,7 @@ Le projet a été réalisé dans le cadre de la spécialité NSI au lycée.
 - `reponse-formulaire.php` : traitement du formulaire et envoi d’email
 - `PHPMailer/` : bibliothèque pour l’envoi de mails
 - `images/` : icônes et logos des associations
-- `includes/config.php` : fichier de configuration (ex. : mail, mot de passe)
+- `includes/config.php` : fichier de configuration (mail, mot de passe)
 
 ## Visiter le site
 
