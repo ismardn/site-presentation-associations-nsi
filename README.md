@@ -13,18 +13,18 @@ Le projet a été réalisé dans le cadre de la spécialité NSI au lycée.
 
 ## Structure
 - `accueil.html` : page d’accueil du site
-- Pages HTML individuelles pour chaque association (ex : `croix-rouge.html`)
+- Pages HTML individuelles pour chaque association (ex. : `croix-rouge.html`)
 - `formulaire-ajout-association.html` : formulaire d’ajout
 - `reponse-formulaire.php` : traitement du formulaire et envoi d’email
 - `PHPMailer/` : bibliothèque pour l’envoi de mails
 - `images/` : icônes et logos des associations
-- `includes/config.php` : fichier de configuration (ex: destinataire mail)
+- `includes/config.php` : fichier de configuration (ex. : mail, mot de passe)
 
 ## Visiter le site
 
 Placer les fichiers sur un serveur local avec support PHP (comme `XAMPP`), puis ouvrir `accueil.html` dans le navigateur, à partir de `localhost`.
 
-Le formulaire nécessite la configuration du fichier `includes/config.php` avec une adresse email et un mot de passe (un mot de passe d’application peut être nécessaire, par exemple avec Gmail).
+Le formulaire nécessite la configuration du fichier `includes/config.php` avec une adresse email et un mot de passe (un "mot de passe d’application" peut être nécessaire, par exemple avec Gmail).
 
 ---
 
