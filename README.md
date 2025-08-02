@@ -1,4 +1,4 @@
-# Site de présentation d’associations humanitaires
+# Site de présentation d’associations - HTML & PHP
 
 Ce projet présente plusieurs associations humanitaires connues à travers une interface web, avec possibilité d’ajouter de nouvelles associations via un formulaire. Un email est envoyé automatiquement grâce à l’intégration de PHPMailer.
 
